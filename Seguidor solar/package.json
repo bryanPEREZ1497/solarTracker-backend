@@ -1,0 +1,23 @@
+{
+  "name": "seguidor-solar",
+  "version": "1.0.0",
+  "description": "backend con controlador del arduino, y que envía a /data los datos que devuelve el seguidor solar",
+  "main": "main.js",
+  "scripts": {
+    "reset": "firmata-party uno --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricio403/PaginaWebIntegrador.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauricio403/PaginaWebIntegrador/issues"
+  },
+  "homepage": "https://github.com/mauricio403/PaginaWebIntegrador#readme",
+  "dependencies": {    
+    "express": "^4.17.1",    
+    "johnny-five": "^2.0.0"    
+  }
+}
